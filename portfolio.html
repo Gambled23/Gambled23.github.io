@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+
+<body>
+    <p class="header">Portfolio</p>
+    <div class="sidebar-container">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <div class="sidebar-elements">
+            <a href="home.html">Home</a>
+            <a href="bio.html">Bio</a>
+            <a href="portfolio.html"><b>Portfolio</b></a>
+            <a href="links.html">Links</a>
+            <a href="Resume.pdf" target="_blank">Resumé</a>
+        </div>
+    </div>
+
+    <div class="main_container">
+        <div class="project">
+            <div class="project_images">
+                <img src="images/projects/discord bot/1.png" alt="">
+                <img src="images/projects/discord bot/2.png" alt="">
+            </div>
+            <div class="project_description">
+                <p class="project_title"><a href="https://github.com/Gambled23/Eliasbot" target="_blank">Discord bot</a></p>
+                <p>Self hosted on a raspberry pi, I made this bot using <a href="https://www.hikari-py.dev/">hikari</a>,
+                    it have some funny commands like quote the bible, birthday celebrations, calling all members, and
+                    even play some music using the spotify api. <br>Just a silly project I made for my friends discord
+                    server.</p>
+                <p style="color: rgb(218, 99, 99);">Currently <b>offline</b></p>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project_images">
+                <img src="images/projects/the parking zone/1.png" alt="">
+                <img src="images/projects/the parking zone/2.png" alt="">
+                <img src="images/projects/the parking zone/3.png" alt="">
+            </div>
+            <div class="project_description">
+                <p class="project_title"><a href="https://github.com/Gambled23/The-Parking-Zone" target="_blank">The parking zone</a></p>
+                <p>A system for parking-spaces administration, auto-assigning the nearest available space, and printing
+                    a QR code with the assigned space.</p>
+                <p>Made entirely using python, this project uses tkinter to give the admin an easy to use GUI <br>As an
+                    administrator, you can watch live status of the parking lot, receive notifications from cars parked
+                    for more than 48 hours, create and delete parking spaces, and everything you would expect from a
+                    parking lot administration software.</p>
+                <p>The software runs entirely on the local PC using a self-hosted postgres database, but thanks to the
+                    GUI the administrator user doesn't need to know anything about databases to fully use <b>The parking
+                        zone</b>.</p>
+                <p>(special thanks to <a href="https://github.com/sami-sopas" target="_blank">sami-sopas</a> for the css
+                    ticket design)</p>
+                <p><br><a
+                        href="https://github.com/Gambled23/The-Parking-Zone/blob/master/Manual%20de%20Implementacion.pdf"
+                        target="_blank">Installation guide (spanish)</a></p>
+                <p><a href="https://github.com/Gambled23/The-Parking-Zone/blob/master/Manual%20de%20usuario.pdf"
+                        target="_blank">User manual (spanish)</a></p>
+                <br><br>
+                <p><a style="color: rgb(99, 218, 101); font-size: 35px;"
+                        href="https://github.com/Gambled23/The-Parking-Zone/releases">Donwloads</a></p>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project_images">
+                <img src="images/projects/perro muy largo/1.png" alt="">
+                <img src="images/projects/perro muy largo/2.png" alt="">
+            </div>
+            <div class="project_description">
+                <p class="project_title"><a href="https://github.com/Gambled23/proyectoSBBDD" target="_blank">Perro muy
+                        largo</a></p>
+                <p>A practice django app I made with database integration, it's just a site for sending reports about
+                    water problems.</p>
+                <p>This was a collab project with <a href="https://github.com/cybness" target="_blank">cybness</a>. She
+                    made part of the frontend while I focused on the backend.</p>
+                <br>
+                <p>You can try the page <a style="color: rgb(99, 218, 101);"
+                        href="https://proyecto-sbbdd.azurewebsites.net/" target="_blank">here</a></p>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project_images">
+                <img src="images/projects/data structures/1.png" alt="">
+            </div>
+            <div class="project_description">
+                <p class="project_title"> <a href="https://github.com/Gambled23/EDD1" target="_blank">Data
+                        structures</a></p>
+                <p>This is just the programs I made in c++ for my data structures class, simple and double-linked lists,
+                    stacks, queues, binary search tree and graphs.</p>
+            </div>
+        </div>
+
+        <p class="project_title">If you want to see my full coding journey, you can visit <a
+                href="https://github.com/Gambled23">my github</a></p>
+    </div>
+</body>
+
+</html>

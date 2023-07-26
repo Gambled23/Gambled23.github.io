@@ -1,0 +1,14 @@
+.main-container{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.info{
+    color: white;
+    width: 50%;
+}
+
+.picture-div{
+    width: 50%;
+}

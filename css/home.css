@@ -1,0 +1,41 @@
+.main-container{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.main-container div{
+    width: 50%;
+}
+
+.picture-div{
+    align-items: center;
+}
+
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.logos img{
+    width: 70px;
+}
+
+.logos img:hover{
+    opacity: 0.6;
+}
+
+.info{
+    color: white;
+}

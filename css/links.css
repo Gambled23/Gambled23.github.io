@@ -1,0 +1,30 @@
+.main-container{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.list_title{
+    color: white;
+    margin: 10px;
+}
+
+ul{
+    list-style-type: square;
+    overflow: hidden;
+    padding-bottom: 10px;
+    font-size: 26px;
+}
+
+li{
+    color: rgb(255, 255, 255);
+}
+
+a{
+    font-size: 18px;
+    color: rgb(182, 237, 237);
+}
+
+a:hover{
+    text-decoration: none;
+    opacity: 0.6;
+}

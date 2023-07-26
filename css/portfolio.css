@@ -1,0 +1,42 @@
+.main_container{
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+}
+
+
+.project{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+a{
+    color: rgb(182, 237, 237);
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.6;
+}
+
+.project_images{
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+}
+
+.project_images img{
+    width: 320px;
+    margin-bottom: 10px;
+}
+
+.project_title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.finap_p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}

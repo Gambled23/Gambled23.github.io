@@ -1,0 +1,47 @@
+.sidebar-container{
+    background-color: rgba(28,28,28,1);
+    position: fixed;
+    width: 260px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.logo{
+    width: 210px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.sidebar-elements a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0px 10px 25px;
+    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-shadow: 2px 2px 4px #000000;
+
+    transition: opacity 0.2s ease-in-out;
+    transition: font-size 0.15s ease-in-out;
+}
+
+.sidebar-elements a:hover{
+    opacity: 0.6;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.sidebar-actual {
+    font-weight: 600;
+    color: rgb(182, 237, 237);
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(41, 41, 41);
+    margin-left: 260px;
+}
