@@ -16,12 +16,12 @@
 
 .sidebar-elements a{
     text-decoration: none;
-    color: white;
+    color: rgb(164, 164, 164);
     display: block;
     padding: 10px 0px 10px 25px;
     
     font-family: 'Nunito', sans-serif;
-    font-weight: 400;
+    font-weight: 350;
     font-size: 23px;
     text-shadow: 2px 2px 4px #000000;
 
@@ -30,14 +30,14 @@
 }
 
 .sidebar-elements a:hover{
-    opacity: 0.6;
+    color: 	white;
+    opacity: 0.65;
     font-size: 26px;
     font-weight: bolder;
 }
 
 .sidebar-actual {
     font-weight: 600;
-    color: rgb(182, 237, 237);
     padding: 0;
     margin: 0;
 }
