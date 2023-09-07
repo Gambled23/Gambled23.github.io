@@ -7,8 +7,14 @@
 .info{
     color: white;
     width: 50%;
+    margin-right: 25px;
 }
 
 .picture-div{
     width: 50%;
+}
+
+.body-picture{
+    margin-left: 20%;
+    height: 80%;
 }
