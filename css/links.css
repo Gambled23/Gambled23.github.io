@@ -28,3 +28,29 @@ a:hover{
     text-decoration: none;
     opacity: 0.6;
 }
+
+@media (max-width: 768px) {
+    
+        .main-container{
+            margin-left: 0%;
+            margin-right: 0%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .list_title{
+            width: 100%;
+        }
+    
+        ul{
+            width: 100%;
+        }
+    
+        li{
+            width: 100%;
+        }
+    
+        a{
+            width: 100%;
+        }
+}
