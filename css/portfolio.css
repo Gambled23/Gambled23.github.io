@@ -40,3 +40,41 @@ a:hover{
     font-size: 20px;
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    
+        .main_container{
+            margin-left: 0%;
+            margin-right: 0%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .project{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 50px;
+        }
+    
+        .project_images{
+            display: flex;
+            margin-right: 0px;
+            flex-direction: column;
+        }
+    
+        .project_images img{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    
+        .project_title{
+            font-size: 30px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+    
+        .finap_p{
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+}
