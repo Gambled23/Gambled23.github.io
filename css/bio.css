@@ -16,5 +16,29 @@
 
 .body-picture{
     margin-left: 20%;
-    height: 80%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .main-container{
+        margin-left: 0%;
+        margin-right: 0%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    .picture-div{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .body-picture{
+        margin-left: 0%;
+        width: 100%;
+    }
 }
