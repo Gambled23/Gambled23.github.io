@@ -48,7 +48,6 @@
 
 body{
     background-color: rgb(41, 41, 41);
-    margin-left: 260px;
 }
 
 /*Mobile*/
@@ -68,5 +67,15 @@ body{
         justify-content: space-around;
     }
 
+    body{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     
+}
+
+@media (min-width: 768px) {
+    body{
+        margin-left: 260px;
+    }
 }
