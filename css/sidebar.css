@@ -67,6 +67,10 @@ body{
         justify-content: space-around;
     }
 
+    .sidebar-elements a{
+        font-size: 20px;
+    }
+
     body{
         margin-left: 5%;
         margin-right: 5%;
