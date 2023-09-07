@@ -1,7 +1,8 @@
 .main-container{
     display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .main-container div{
@@ -38,4 +39,24 @@
 
 .info{
     color: white;
+}
+
+@media (max-width: 768px) {
+    .main-container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .main-container div{
+        width: 100%;
+    }
+
+    .profile-picture{
+        width: 200px;
+    }
+
+    .logos img{
+        width: 50px;
+    }
+
 }
